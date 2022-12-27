@@ -16,7 +16,7 @@ pipeline {
                 sh 'echo Erik KAWAIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII'
                 sh 'echo Erik KAWAIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII'
                 sh 'echo Erik KAWAIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII'
-                sh 'finished'
+                sh 'echo finished'
             }
         }
     }
