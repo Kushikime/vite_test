@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('installing node') {
             steps {
-                sh 'sudo apt update'
-                sh 'sudo apt install nodejs'
+                sh 'apt update'
+                sh 'apt install nodejs'
                 sh 'node --version'
                 sh 'yarn install'
             }
