@@ -45,7 +45,9 @@ pipeline {
             }
         }
         stage('finished') {
-                sh 'echo finished'
+                steps {
+                    sh 'echo finished'
+                }
         }
     }
 }
