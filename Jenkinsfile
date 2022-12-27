@@ -44,7 +44,7 @@ pipeline {
                 sh 'echo Erik KAWAIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII'
             }
         }
-        state('finished') {
+        stage('finished') {
                 sh 'echo finished'
         }
     }
