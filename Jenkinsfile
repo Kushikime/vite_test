@@ -1,10 +1,22 @@
+/* groovylint-disable DuplicateStringLiteral */
 pipeline {
-    agent { docker { image 'node:16.17.1-alpine' } }
+    agent any
     stages {
         stage('build') {
             steps {
                 sh 'node --version'
+                sh 'yarn install'
                 sh 'echo Erik KAWAIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII'
+                sh 'echo Erik KAWAIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII'
+                sh 'echo Erik KAWAIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII'
+                sh 'echo Erik KAWAIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII'
+                sh 'echo Erik KAWAIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII'
+                sh 'echo Erik KAWAIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII'
+                sh 'echo Erik KAWAIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII'
+                sh 'echo Erik KAWAIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII'
+                sh 'echo Erik KAWAIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII'
+                sh 'echo Erik KAWAIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII'
+                sh 'finished'
             }
         }
     }
